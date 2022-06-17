@@ -1,0 +1,15 @@
+:root {
+  --primary-color: var(#15803d);
+}
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+html {
+  font-size: 10px;
+}
+body {
+  margin: 0 auto;
+  padding: 0;
+}
