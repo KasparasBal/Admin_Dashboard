@@ -1,3 +1,5 @@
+/* General */
+
 :root {
   --primary-color: var(#15803d);
 }
@@ -12,4 +14,71 @@ html {
 body {
   margin: 0 auto;
   padding: 0;
+}
+/* Header */
+.search {
+}
+.search_button {
+}
+.search_input {
+}
+.primary_user {
+}
+.prim_user_img {
+}
+.greeting {
+}
+.prim_user_name {
+}
+.user_links {
+}
+.user_link_button {
+}
+.sm_prim_user_int {
+}
+.notif_icon {
+}
+.sm_user_img {
+}
+.sm_user_name {
+}
+/* Sidebar */
+.navigation {
+}
+.nav_links {
+}
+/* Body */
+/* articles */
+.body {
+}
+.articles {
+}
+.body_title {
+}
+.article_box {
+}
+.article_title {
+}
+.article_content {
+}
+.article_buttons {
+}
+.ar_button_icon {
+}
+/* Users */
+.user {
+}
+.users_image {
+}
+.users_name {
+}
+.users_content {
+}
+
+/* announcements */
+.announcement {
+}
+.ann_title {
+}
+.ann_content {
 }
