@@ -1,0 +1,6 @@
+This project was an assignement on "TheOdinProject.com".
+
+This is the link of the design we were supposed to follow -----> https://cdn.statically.io/gh/TheOdinProject/curriculum/main/html_css/grid-lessons/project-dashboard/dashboard-project.png
+
+Icons were taken from https://materialdesignicons.com
+
