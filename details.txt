@@ -4,3 +4,8 @@ This is the link of the design we were supposed to follow -----> https://cdn.sta
 
 Icons were taken from https://materialdesignicons.com
 
+Additional information about the project.
+
+This is a html + css only project.
+
+npm use limited to installing "normalize".
