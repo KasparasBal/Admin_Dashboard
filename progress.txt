@@ -1,5 +1,7 @@
-1. Prepare a template
-2. Make rough outline
+1. Prepare a template +
+2. Make rough outline 
+ 2.1 add some content
+ 2.2 style
 3. Gather resources
 4. Assembly
 5. Mobile
