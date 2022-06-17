@@ -1,7 +1,9 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap");
 /* General */
 
 :root {
-  --primary-color: var(#15803d);
+  --primary-color: var(#0284c7);
+  --secondary-color: var(#cbd5e1);
 }
 *,
 *::before,
@@ -14,8 +16,15 @@ html {
 body {
   margin: 0 auto;
   padding: 0;
+  display: grid;
+  grid-template-columns: 17rem 1fr 1fr 1fr;
+  grid-template-rows: 10rem;
+  font-family: "Roboto", sans-serif;
 }
 /* Header */
+.header {
+  background-color: #fff;
+}
 .search {
 }
 .search_button {
@@ -44,20 +53,75 @@ body {
 }
 /* Sidebar */
 .navigation {
+  background-color: #0284c7;
+  grid-column: 1/2;
+  grid-row: 1/5;
+  padding: 1rem;
+  color: #fff;
+  font-weight: 900;
+  font-size: 1.2rem;
+}
+.d_title_container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 2.5rem;
+}
+.sidebar_logo_container {
 }
 .sidebar_logo {
+  width: 5rem;
+  height: 5rem;
+  color: #fff;
+}
+.nav_icons_container {
+}
+.nav_icons {
+  width: 2rem;
+  height: 2rem;
+  color: #fff;
+  margin-right: 1.5rem;
 }
 .nav_links {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+}
+.nav_links a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-left: 1rem;
+  margin-bottom: 2rem;
+}
+.seperate_links {
+  margin-top: 2rem;
 }
 /* Body */
 /* articles */
 .body {
+  background-color: #cbd5e1;
+  grid-column: 2/5;
+  grid-row: 2/5;
+  padding: 1rem;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
 }
 .articles {
+  display: flex;
+  flex-wrap: wrap;
+  grid-column: 1/2;
 }
 .body_title {
 }
 .article_box {
+  background-color: #fff;
+  width: 25rem;
+  height: 13.5rem;
+  padding: 2rem;
+  margin: 1.5rem;
+
+  border-radius: 5px;
 }
 .article_title {
 }
@@ -68,6 +132,15 @@ body {
 .ar_button_icon {
 }
 /* Users */
+.tren_container {
+  grid-column: 2/3;
+}
+.trending_tab {
+  background-color: #fff;
+  width: 20rem;
+  height: 25rem;
+  grid-column: 2/3;
+}
 .user {
 }
 .users_image {
@@ -78,6 +151,14 @@ body {
 }
 
 /* announcements */
+.announ_container {
+  grid-column: 2/3;
+}
+.announcement_tab {
+  background-color: #fff;
+  width: 20rem;
+  height: 25rem;
+}
 .announcement {
 }
 .ann_title {
